@@ -4,4 +4,5 @@ inorder and reliable communication , I used TCP protocol and which is functional
 we are using socket address. So I binded port number with IP address in order to get socket address.    
 
 # Server Side Setup
-Here server.py file contain source code , which is running in server side. This code can able to every conncetion and maintain server side conncection. 
+Here server.py file contain source code , which is running in server side. This code can able to every conncetion and maintain server side conncection. Server Side code is always is running mode. It has ability to establish connection and termination with client. In order to make connection with server , client has to make connection request. When server accept the connection request and for acknowledgment it produce message like "connection establish successfully" . After that server and client can communication. 
+
